@@ -24,7 +24,7 @@ GameObject:
   - 50: {fileID: 50000012326939882}
   - 114: {fileID: 114000012423223870}
   - 114: {fileID: 114000011390621468}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,6 +103,8 @@ MonoBehaviour:
   speed: 5
   shotDelay: 0.05
   bullet: {fileID: 1000012870609074, guid: 9bee84eff7c68d140b712331d7e91cb6, type: 2}
+  canShot: 0
+  explosion: {fileID: 0}
 --- !u!212 &212000012823031682
 SpriteRenderer:
   m_ObjectHideFlags: 1
